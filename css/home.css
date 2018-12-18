@@ -1,1 +1,52 @@
-/*css file*/
+<html>
+<head><title>Home</title></head>
+<link rel="stylesheet" href="css/nav.css">
+<link rel="stylesheet" href="css/home.css">
+
+
+<body>
+	<nav>
+	<p id="name">Computer Science</p>
+	
+	
+	<ul class="nav">
+		<li><a class="btn" href="#">About us</a></li>
+		<li><a class="btn" href="#">CS Notes</a></li>
+		<li><a class="btn" href="#">How to</a>
+			<ul class="nav1">
+				<li><a class="btn" href="#">How to code</a></li>
+				<li><a class="btn" href="#">How to learn C++</a></li>
+				<li><a class="btn" href="#">How to install pycharm</a></li>
+				<li><a class="btn" href="#">How to install netBeans</a></li>
+				<li><a class="btn" href="#">How to install codeBlocks</a></li>
+			</ul>
+		</li>
+		<li><a class="btn" href="#">Languages</a>
+			<ul class="nav1">
+				<li><a class="btn" href="#">C</a></li>
+				<li><a class="btn" href="#">C++</a></li>
+				<li><a class="btn" href="#">JAVA</a></li>
+				<li><a class="btn" href="#">Python</a></li>
+				<li><a class="btn" href="#">Java Script</a></li>
+				<li><a class="btn" href="#">C#</a></li>
+				<li><a class="btn" href="#">CSS</a></li>
+			</ul>
+		</li>
+		<li><a class="btn" href="#">Top Technologies</a></li>
+		<li><a style="background-color:#1d6b87;color:white;" class="btn" href="#">Home</a></li>
+	</ul>
+	</nav>
+
+	<div id="trending">
+		<div class="tops"><a href="#">JAVA</a></div>
+		<div class="tops"><a href="#">python</a></div>
+		<div class="tops"><a href="#">ML</a></div>
+		<div class="tops"><a href="#">Node</a></div>
+		<div class="tops"><a href="#">Angulor</a></div>
+		<div class="tops"><a href="#">C#</a></div>
+		<div class="tops"><a href="#">Cpp</a></div>
+		<div class="tops"><a href="#">Data Science</a></div>
+		
+	</div>
+</body>
+</html
